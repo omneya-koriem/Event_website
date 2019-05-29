@@ -1,0 +1,136 @@
+.headerAndIntroSection {
+  height: 660px;
+  background-image: url(iti_sd_bootstrap_template/img/intro-bg.jpg);
+  background-size: cover;
+  background-attachment: fixed; }
+  .headerAndIntroSection .headerSectionOverLayer {
+    background-color: rgba(6, 12, 34, 0.8); }
+  .headerAndIntroSection .headerSection {
+    padding: 1.62% 1.62% 1.62% 3%; }
+    .headerAndIntroSection .headerSection .nav {
+      margin-left: 7.9%;
+      padding-top: 0.1%; }
+      .headerAndIntroSection .headerSection .nav .nav-item {
+        height: 53px; }
+      .headerAndIntroSection .headerSection .nav a {
+        font-family: "Raleway", sans-serif;
+        font-size: 14px;
+        color: rgba(202, 206, 221, 0.8);
+        padding: 0.6rem 0.75rem; }
+        .headerAndIntroSection .headerSection .nav a:hover {
+          border-bottom: 2px solid #f82249;
+          color: white; }
+    .headerAndIntroSection .headerSection .eventLogo {
+      height: 40px;
+      margin: 3px 4px 0 0; }
+    .headerAndIntroSection .headerSection .headerButton {
+      padding: 0.3rem .8rem;
+      padding-right: 16px; }
+      .headerAndIntroSection .headerSection .headerButton .buyTicketsButton {
+        height: 31px;
+        width: 120px;
+        border-radius: 15px;
+        border: 2px solid #f82249;
+        font-size: 14px;
+        background-color: #f82249; }
+        .headerAndIntroSection .headerSection .headerButton .buyTicketsButton:hover {
+          background-color: black; }
+  .headerAndIntroSection .eventNameDateAndPlace h1 {
+    font-size: 56px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600; }
+  .headerAndIntroSection .eventNameDateAndPlace .RedColorWord {
+    color: #f82249; }
+  .headerAndIntroSection .eventNameDateAndPlace p {
+    font-family: sans-serif;
+    font-size: 21px; }
+  .headerAndIntroSection .eventNameDateAndPlace .aboutTheEventButton {
+    height: 43px;
+    width: 192px;
+    border-radius: 25px;
+    border: 2px solid #f82249; }
+  .headerAndIntroSection .eventNameDateAndPlace .outerPlayButton {
+    height: 95px;
+    width: 95px;
+    opacity: 0.05; }
+  .headerAndIntroSection .eventNameDateAndPlace .playButton {
+    height: 65px;
+    width: 65px;
+    margin: 15px 0 0 -80px;
+    background-color: #f82249; }
+
+.aboutEventOuterContainer {
+  background-image: url(iti_sd_bootstrap_template/img/about-bg.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  height: 258px; }
+  .aboutEventOuterContainer .aboutEventOverLay {
+    background-color: rgba(6, 12, 34, 0.8); }
+  .aboutEventOuterContainer .aboutEventText h4, .aboutEventOuterContainer .aboutEventText h2 {
+    font-family: "Raleway", sans-serif; }
+  .aboutEventOuterContainer .aboutEventText h2 {
+    font-size: 36px; }
+  .aboutEventOuterContainer .aboutEventText p {
+    font-size: 16px; }
+
+.sectionHeadingBlueColor {
+  color: #091041;
+  font-size: 38px; }
+
+.WebsiteBlueColor {
+  color: #091041; }
+
+.lightBlueColor {
+  color: #19328e; }
+
+.font17Px {
+  font-size: 17px; }
+
+hr {
+  background-color: #f82249;
+  height: 3px;
+  width: 5%;
+  margin: 0 auto 7px; }
+
+.eventSpeakersOuterContainer .card-title span:hover, .eventSpeakersOuterContainer .card-img-overlay i:hover {
+  color: #f82249;
+  cursor: pointer;
+  transition-duration: 0.3s; }
+
+.eventSpeakersOuterContainer .card-img-overlay {
+  width: 350px;
+  top: 191px;
+  background-color: rgba(6, 12, 34, 0.8);
+  padding-bottom: 20px;
+  transition: all 0.3s ease-out; }
+
+.eventSpeakersOuterContainer .card:hover > .card-img-overlay {
+  top: 163px;
+  transition: all 0.3s ease-in-out; }
+
+.eventScheduleContainer {
+  background-color: #f6f7fd; }
+  .eventScheduleContainer .btn {
+    height: 45px;
+    width: 245px;
+    border-radius: 25px;
+    background-color: #091041;
+    line-height: 38px; }
+  .eventScheduleContainer .nav .active {
+    background-color: #f82249; }
+  .eventScheduleContainer .eventScheduleIntro {
+    font-size: 19px; }
+  .eventScheduleContainer .tab-content {
+    width: 63%; }
+    .eventScheduleContainer .tab-content th {
+      width: 17%;
+      font-size: 17px; }
+    .eventScheduleContainer .tab-content .tab-content.active {
+      background-color: #f6f7fd; }
+    .eventScheduleContainer .tab-content .imageNextToText {
+      width: 90%; }
+      .eventScheduleContainer .tab-content .imageNextToText img {
+        width: 12%;
+        height: 65px; }
+    .eventScheduleContainer .tab-content tr:hover {
+      background-color: white; }

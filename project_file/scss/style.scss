@@ -1,0 +1,181 @@
+//SASS Variables:
+
+$website_red: #f82249;
+$website_white: white;
+$light_gray:rgba(202, 206, 221, 0.8);
+$website_font:'Raleway', sans-serif;
+.headerAndIntroSection{
+    height: 660px;
+    background-image: url(iti_sd_bootstrap_template/img/intro-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    .headerSectionOverLayer{
+        background-color: rgba(6, 12, 34, 0.8);
+    }
+    .headerSection{
+        padding: 1.62% 1.62% 1.62% 3%;
+        .nav {
+            margin-left: 7.9%;
+            padding-top: 0.1%;
+            .nav-item{
+                height: 53px;
+            }
+            a {
+                font-family: $website_font;
+                font-size: 14px;
+                color: $light_gray;
+                padding: 0.6rem 0.75rem;
+                &:hover{
+                    border-bottom: 2px solid $website_red;
+                    color: $website_white;
+                }
+            } 
+        }
+        .eventLogo{
+            height: 40px;
+            margin: 3px 4px 0 0;
+        }
+        .headerButton{
+            padding: 0.3rem .8rem;
+            padding-right: 16px;
+            .buyTicketsButton{
+                height: 31px;
+                width: 120px;
+                border-radius: 15px;
+                border: 2px solid $website_red;
+                font-size: 14px;
+                background-color: $website_red ;
+                &:hover{
+                    background-color: black;
+                }
+            }
+        }
+    }
+    .eventNameDateAndPlace{
+        h1{
+            font-size: 56px;
+            font-family: $website_font;
+            font-weight: 600;
+        }        
+        .RedColorWord{
+            color: $website_red;
+        }
+        p{
+            font-family: sans-serif;
+            font-size: 21px;
+        }
+        .aboutTheEventButton{
+            height: 43px;
+            width: 192px;
+            border-radius: 25px;
+            border: 2px solid $website_red;           
+        } 
+        .outerPlayButton{
+            height: 95px;
+            width: 95px;
+            opacity: 0.05;
+        } 
+        .playButton{
+            height: 65px;
+            width: 65px;
+            margin: 15px 0 0 -80px;
+            background-color: $website_red;
+        }  
+    }
+}
+.aboutEventOuterContainer{
+    background-image: url(iti_sd_bootstrap_template/img/about-bg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    height: 258px;
+    .aboutEventOverLay{
+        background-color: rgba(6, 12, 34, 0.8);
+    
+    }
+    .aboutEventText h4, .aboutEventText h2{
+        font-family: $website_font;
+    }
+    .aboutEventText {
+        h2{
+            font-size: 36px;
+        }
+        p{
+            font-size: 16px;
+    
+        }
+    }
+}
+.sectionHeadingBlueColor{
+    color: #091041;
+    font-size: 38px;
+}
+.WebsiteBlueColor{
+    color: #091041;
+}
+.lightBlueColor{
+    color: #19328e;
+}
+.font17Px{
+    font-size: 17px;
+}
+hr{
+    background-color: $website_red;
+    height: 3px;
+    width: 5%;
+    margin: 0 auto 7px;
+}
+.eventSpeakersOuterContainer{
+    .card-title span:hover, .card-img-overlay i:hover{
+        color: $website_red;
+        cursor: pointer;
+        transition-duration: 0.3s;
+    }
+    .card-img-overlay{
+        width: 350px;
+        top: 191px;
+        background-color: rgba(6, 12, 34, 0.8);
+        padding-bottom: 20px;
+        transition: all 0.3s ease-out;
+    }
+    .card:hover > .card-img-overlay{
+        top: 163px;
+        transition: all 0.3s ease-in-out;
+    } 
+}
+.eventScheduleContainer{
+    background-color: #f6f7fd;
+    .btn{
+        height: 45px;
+        width: 245px;
+        border-radius: 25px;
+        background-color: #091041;
+        line-height: 38px;
+    }
+    .nav .active{
+       background-color: $website_red;
+    }
+    .eventScheduleIntro{
+        font-size: 19px;
+    }
+    .tab-content{
+        width: 63%;
+        th{
+            width: 17%;
+            font-size: 17px;
+        }
+        .tab-content.active{
+            background-color: #f6f7fd;
+        }
+        .imageNextToText{
+            width: 90%;
+            img{
+                width: 12%;
+                height: 65px;
+            }
+        }
+        tr:hover{
+            background-color: white;
+        }
+    }
+}
+
